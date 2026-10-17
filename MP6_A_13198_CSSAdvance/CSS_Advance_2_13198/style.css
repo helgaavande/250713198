@@ -1,0 +1,207 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color: #2d3142;
+    background-color: #d6e4ff;
+    background-image: linear-gradient(135deg, #ffd6e8 0%, #d6e4ff 50%, #d6fff0 100%);
+    background-attachment: fixed;
+    text-align: center;
+    margin: 0;
+    padding: 30px 0;
+}
+
+#wrapper {
+    width: 720px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #ffffff;
+    border: 3px solid #7c4dff;
+    border-radius: 14px;
+    box-shadow: 0 8px 24px rgba(124, 77, 255, 0.25);
+    padding: 0 0 25px 0;
+    overflow: hidden;
+}
+
+#header {
+    background-color: #7c4dff;
+    background-image: linear-gradient(90deg, #7c4dff, #ff4081);
+    color: #ffffff;
+    padding: 25px 30px;
+    border-bottom: 6px solid #ffb300;
+}
+
+#header h1 {
+    margin: 0 0 8px 0;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+#header p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+#header em {
+    color: #ffe57f;
+    font-weight: bold;
+}
+
+form {
+    margin: 10px 30px 0 30px;
+}
+
+h2 {
+    font-size: 17px;
+    margin: 22px 0 10px 0;
+    padding: 6px 0 6px 12px;
+    border-left: 6px solid #7c4dff;
+}
+
+h2.judul-peserta {
+    border-left-color: #ff4081;
+    color: #c2185b;
+}
+
+h2.judul-seminar {
+    border-left-color: #2196f3;
+    color: #1565c0;
+}
+
+h2.judul-tambahan {
+    border-left-color: #43a047;
+    color: #2e7d32;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 12px 14px;
+    vertical-align: middle;
+    background-color: #ffffff;
+}
+
+td.kolom-label {
+    width: 32%;
+    font-weight: bold;
+}
+
+td.atas {
+    vertical-align: top;
+}
+
+table.peserta {
+    border: 2px solid #f48fb1;
+}
+
+table.peserta td {
+    border: 1px solid #f8bbd0;
+}
+
+table.peserta td.kolom-label {
+    background-color: #ffe0ec;
+    color: #c2185b;
+}
+
+table.seminar {
+    border: 2px solid #90caf9;
+}
+
+table.seminar td {
+    border: 1px solid #bbdefb;
+}
+
+table.seminar td.kolom-label {
+    background-color: #dcecff;
+    color: #1565c0;
+}
+
+table.tambahan {
+    border: 2px solid #a5d6a7;
+}
+
+table.tambahan td {
+    border: 1px solid #c8e6c9;
+}
+
+table.tambahan td.kolom-label {
+    background-color: #dff7e2;
+    color: #2e7d32;
+}
+
+label {
+    cursor: pointer;
+}
+
+label.pilihan {
+    font-weight: normal;
+    color: #2d3142;
+    margin-right: 14px;
+}
+
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 13px;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 92%;
+    padding: 7px 8px;
+    border: 2px solid #b39ddb;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+select {
+    width: 94.5%;
+}
+
+input[type="file"] {
+    width: 94%;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #ff4081;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #ff4081;
+    background-color: #fff8e1;
+    outline: none;
+}
+
+table.tambahan td.area-tombol {
+    text-align: center;
+    background-color: #f3e8ff;
+    padding: 20px;
+}
+
+input[type="submit"] {
+    background-color: #ff4081;
+    background-image: linear-gradient(90deg, #ff9100, #ff4081);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 40px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-image: linear-gradient(90deg, #7c4dff, #ff4081);
+}
